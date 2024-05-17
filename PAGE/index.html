@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VOGUE</title>
+    <link rel="shortcut icon" href="./images/letter-v.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+<!-- header section starts  -->
+<header>
+    <div id="menu-bar" class="fas fa-bars"></div>
+    <!-- <img src="./images/letter-v.png" width="30px"> -->
+    <a href="#" class="logo"><span>V</span>OGUE STORE</a>
+    <!-- <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#about">about</a>
+        <a href="#parkages">parkages</a>
+        <a href="#review">review</a>
+        <a href="#contact">contact</a>
+    </nav> -->
+    <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#packages">Top Product</a>
+        <a href="#review">Review</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact US</a>
+    </nav>
+
+<!-- <button href="./login.html">Login</button>
+     <button >Sign Up</button> -->
+    <div class="icons">
+        <i class="fas fa-search" id="search-btn"></i>
+        <i class="fa-solid fa-cart-shopping"></i>
+        <i class="fas fa-user" id="login-btn"></i>
+    </div>
+
+    <form action="" class="search-bar-container">
+        <input type="search" id="search-bar" placeholder="search here...">
+        <label for="search-bar" class="fas fa-search"></label>
+    </form>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- login form container  -->
+
+ <div class="login-form-container">
+
+    <i class="fas fa-times" id="form-close"></i>
+
+    <form action="" id="form">
+        <h3>Login</h3>
+        <input type="email" id="email" class="box" placeholder="enter your email">
+        <input type="password" id="password" class="box" placeholder="enter your password">
+        <input type="submit" id="login" value="login now" class="btn">
+        <input type="checkbox" id="remember">
+        <label for="remember">Remember Me</label>
+        <p>Forget password? <a href="#">click here</a></p>
+        <p>Don't have and account? <a href="register.html">Register now</a></p>
+    </form>
+
+</div> 
+
+
+<!-- Header content with banner image -->
+<section class="home" id="home">  
+    <div class="home-tt">
+        <h1 class="heading">
+            <span>V</span>
+            <span>O</span>
+            <span>G</span>
+            <span>U</span>
+            <span>E</span>
+        </h1>
+        <h1>CONNECTING</h1>
+        <h1>YOU TO</h1>
+        <h1>THE FUTURE</h1>
+        <p>Kết nối bạn với tương lai </p>
+        <!-- <p>consectetur adipisicing elit.</p> -->
+    </div>
+    <div class="image">
+        <img src="./images/dsc02910-copy-1680273929863929951208.jpg" alt="banner" width="400px">
+    </div>
+</section>
+
+<!-- home section starts  -->
+
+<!-- home section ends -->
+
+<!-- book section starts  -->
+
+<!-- book section ends -->
+
+<!-- packages section starts  -->
+</section>
+<section class="packages" id="packages">
+    <div class="tourparkages">
+        <h3>TOP PRODUCT</h3>
+        <h2>Popular products</h2>
+        <h2>in the world</h2>
+      </div>
+    <h1 class="heading">
+        <span>T</span>
+        <span>O</span>
+        <span>P</span>
+        <span>R</span>
+        <span>O</span>
+        <span>D</span>
+        <span>U</span>
+        <span>C</span>
+        <span>T</span>
+    </h1>
+
+    <div class="box-container" id="container">
+<!-- 
+        <div class="box">
+            <a  ><img src="./images/863J621I0533-980-01.jpg" alt=""></a>
+            <div class="content">
+                <h3> Dior </h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, nam!</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> $100 <span>$200</span> </div>
+                <a href="https://www.google.com/?hl=vi" class="btn">Buy now</a>
+                
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="./images/Tui-side-trunk-LV-3.png" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> Louis Vuitton </h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, nam!</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> $100 <span>$200</span> </div>
+                <a href="https://www.google.com/?hl=vi" class="btn">Buy now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="./images/32b549e3495d457c5e72e07462ca2255.jpg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> Gucci </h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, nam!</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> $100 <span>$200</span> </div>
+                <a href="https://www.google.com/?hl=vi" class="btn">Buy now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="./images/Tui-side-trunk-LV-3.png" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> Louis Vuitton </h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, nam!</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> $100 <span>$200</span> </div>
+                <a href="https://www.google.com/?hl=vi" class="btn">Buy now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="./images/Tui-side-trunk-LV-3.png" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> Louis Vuitton </h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, nam!</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> $100 <span>$200</span> </div>
+                <a href="https://www.google.com/?hl=vi" class="btn">Buy now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="./images/Tui-side-trunk-LV-3.png" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> Louis Vuitton </h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, nam!</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> $100 <span>$200</span> </div>
+                <a href="https://www.google.com/?hl=vi" class="btn">Buy now</a>
+            </div>
+        </div> -->
+
+    </div>
+
+</section>
+
+<!-- packages section ends -->
+
+<!-- services section starts  -->
+<!-- services section ends -->
+
+<!-- gallery section starts  -->
+
+
+
+<!-- gallery section ends -->
+
+<!-- review section starts  -->
+
+<section class="review" id="review">
+    <div class="tittle">
+        <h3>TESTIMONIAL</h3>
+        <h2>Satisfied customer around</h2>
+        <h2>the world</h2>
+    </div>
+    <h1 class="heading">
+        <span>R</span>
+        <span>E</span>
+        <span>V</span>
+        <span>I</span>
+        <span>E</span>
+        <span>W</span>
+    </h1>
+
+    <div class="swiper-container review-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+                <div class="box">
+                    <span class="tl-icon">&#10077;</span>
+                    <img src="https://cafefcdn.com/thumb_w/650/203337114487263232/2021/8/28/photo1630119914849-16301199150061205830569.jpg" alt="">
+                    <h3>Cristiano Ronaldo</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa adipisci quisquam sunt nesciunt fugiat odit minus illum asperiores dolorum enim sint quod ipsam distinctio molestias consectetur ducimus beatae, reprehenderit exercitationem!</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="box">
+                    <span class="tl-icon">&#10077;</span>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSew9C0_U--ucMeSpgy-PIfB6AdGoFS4CfIhQ&usqp=CAU" alt="">
+                    <h3>Leo Messi</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa adipisci quisquam sunt nesciunt fugiat odit minus illum asperiores dolorum enim sint quod ipsam distinctio molestias consectetur ducimus beatae, reprehenderit exercitationem!</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="box">
+                    <span class="tl-icon">&#10077;</span>
+                    <img src="images/pic3.png" alt="">
+                    <h3>John deo</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa adipisci quisquam sunt nesciunt fugiat odit minus illum asperiores dolorum enim sint quod ipsam distinctio molestias consectetur ducimus beatae, reprehenderit exercitationem!</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="box">
+                    <span class="tl-icon">&#10077;</span>
+                    <img src="images/pic4.png" alt="">
+                    <h3>John deo</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa adipisci quisquam sunt nesciunt fugiat odit minus illum asperiores dolorum enim sint quod ipsam distinctio molestias consectetur ducimus beatae, reprehenderit exercitationem!</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+<section class="gallery" id="gallery">
+    <div class="tittle">
+        <h2>We can do anything we want to</h2>
+        <h2>if we stick to it long enough.</h2>
+        <p>Do what you can, with what you have where you are</p>
+        <a href="https://tuoitre.vn/the-gioi-di-dong.html" class="btn">See all brands</a>
+    </div>
+    <h1 class="heading">
+        <span>G</span>
+        <span>A</span>
+        <span>L</span>
+        <span>L</span>
+        <span>E</span>
+        <span>R</span>
+        <span>Y</span>
+    </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="./images/samsung.jpg" alt="">
+            <div class="content">
+                <h3>SAMSUNG</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, tenetur.</p>
+                <a href="https://www.samsung.com/vn/about-us/brand-identity/" class="btn">See more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="/images/oppo.jpg" alt="">
+            <div class="content">
+                <h3>OPPO</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, tenetur.</p>
+                <a href="https://www.oppo.com/vn/" class="btn">See more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="/images/Xiaomi_logo.svg.png" alt="">
+            <div class="content">
+                <h3>XIAOMI</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, tenetur.</p>
+                <a href="https://www.mi.com/vn/" class="btn">See more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="/images/vivo.jpg" alt="">
+            <div class="content">
+                <h3>ViVo</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, tenetur.</p>
+                <a href="https://www.vivo.com/vn" class="btn">See more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="./images/apple.png" alt="">
+            <div class="content">
+                <h3>APPLE</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, tenetur.</p>
+                <a href="https://www.apple.com/" class="btn">See more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="/images/sony.png" alt="">
+            <div class="content">
+                <h3>SONY</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, tenetur.</p>
+                <a href="https://www.sony.com/en/" class="btn">See more</a>
+            </div>
+        </div>
+    
+
+    </div>
+
+</section>
+<section class="contact" id="contact">
+    
+    <h1 class="heading">
+        <span>C</span>
+        <span>O</span>
+        <span>N</span>
+        <span>T</span>
+        <span>A</span>
+        <span>C</span>
+        <span>T</span>
+    </h1>
+
+    <div class="row">
+
+        <div class="image">
+            <img src="/images/contactUs.jpg" alt="">
+        </div>
+
+        <form action="">
+            <div class="inputBox">
+                <input type="text" placeholder="name">
+                <input type="email" placeholder="email">
+            </div>
+            <div class="inputBox">
+                <input type="number" placeholder="number">
+                <input type="text" placeholder="subject">
+            </div>
+            <textarea placeholder="message" name="" id="" cols="30" rows="10"></textarea>
+            <input type="submit" class="btn" value="send message">
+        </form>
+
+    </div>
+    
+</section>
+
+<!-- contact section ends -->
+
+<!-- review section ends -->
+
+<!-- contact section starts  -->
+<!-- contact section ends -->
+
+<!-- brand section  -->
+<!-- footer section  -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>Tr<span>i</span>ty</h3>
+            <p>4517 Washingyon Ave</p>
+            <p>Manchester, Kentucky 39495</p>
+            <div class="social">
+                <a href="https://www.facebook.com/Cristiano" target="_blank">
+                <img width="34" height="34" src="https://res.cloudinary.com/cloudinary-account/image/upload/v1469457641/facebook_khedl5.svg"></a></img>
+            
+                <a href="https://www.pinterest.com/pin/676032594083268419/" target="_blank">
+                <img width="34" height="34" src="https://res.cloudinary.com/cloudinary-account/image/upload/v1469457641/pinterest_kahh1i.svg"></a></img>
+            
+                <a href="https://www.youtube.com/watch?v=MHNiCwZbuZE" target="_blank">
+                <img width="34" height="34" src="https://res.cloudinary.com/cloudinary-account/image/upload/v1469457641/youtube_xrntt3.svg"></a></img>
+            
+              </div> 
+        </div>
+        <div class="box">
+            <h3>About</h3>
+            <a href="#">About us</a>
+            <a href="#">Features</a>
+            <a href="#">News</a>
+            <a href="#">Plans</a>
+        </div>
+        <div class="box">
+            <h3>Support</h3>
+            <a href="#">Account</a>
+            <a href="#">Support center</a>
+            <a href="#">Feedback</a>
+            <a href="#">Contact us</a>
+        </div>
+        <div class="box">
+            <h3>Newsletter</h3>
+            <p>Subscribe our newsletter and get</p>
+            <p>exiting offers</p>
+            <form>
+                <input type="text" placeholder="Enter email address">
+                <input type="submit" value="Sign Up">
+            </form>
+        </div>
+    </div>
+</section>
+
+
+
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="script.js"></script>
+</body>
+</html>

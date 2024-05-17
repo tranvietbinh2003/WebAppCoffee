@@ -1,0 +1,33 @@
+GET http://localhost:5000/api/v1/user/dfg
+
+### đăng ký 
+POST http://localhost:5000/api/v1/auth/register 
+Content-Type: application/json
+
+{
+    "email": "admin5@gmail.com",
+     "password": "123123"
+   
+}
+### đăng nhập 
+POST http://localhost:5000/api/v1/auth/login 
+Content-Type: application/json
+
+{
+    "email": "admin1@gmail.com",
+    "password": "123456"
+   
+}
+
+### kiểm tra phân quyền 
+GET http://localhost:5000/api/v1/user/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MiwiZW1haWwiOiJhZG1pbjFAZ21haWwuY29tIiwicm9sZV9jb2RlIjoiUjIiLCJpYXQiOjE2ODUyMDcxNDAsImV4cCI6MTY4NTYzOTE0MH0.JWyas49VzqohLBDLQqtAGRElGz0w_-XOP2UWGPqK7tk
+
+### insert data
+GET http://localhost:5000/api/v1/insert/
+
+### timf available từ khoảng 5 đến 10
+GET http://localhost:5000/api/v1/phone/?available[]=5&available[]=10    
+
+### kiểm tra phân quyền 
+GET http://localhost:5000/api/v1/phone/
